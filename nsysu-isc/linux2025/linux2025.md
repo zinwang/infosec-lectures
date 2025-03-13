@@ -32,6 +32,19 @@ By Khin (Zin) Wang
 
 ---
 
+### About Me
+
++ 資安社前社長
++ 電機大五岩壁仔
++ Linux 長期使用者
+
+
+![bg 40% right](./assets/dc.png)
+
+
+---
+
+
 ### 開始之前，先問大家有沒有看過這個畫面
 
 ![fit](./assets/bs.jpg)
