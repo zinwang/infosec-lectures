@@ -111,7 +111,7 @@ By Khin (Zin) Wang
 
 ---
 
-### 讓使用者可以輕鬆使用硬體資源，<br>卻無需親自[操縱硬體]((https://youtu.be/ACsLvXuaKxw?feature=shared&t=66))
+### 讓使用者可以輕鬆使用硬體資源，<br>卻無需親自[操縱硬體](https://youtu.be/ACsLvXuaKxw?feature=shared&t=66)
 
 ---
 
@@ -417,7 +417,7 @@ By Khin (Zin) Wang
 
 ---
 
-## [Just For Fun - Linux Torvalds](https://www.tenlong.com.tw/products/9780066620732)
+## [Just For Fun - Linus Torvalds](https://www.tenlong.com.tw/products/9780066620732)
 
 ![](./assets/jsutforfun.jpg)
 
@@ -548,7 +548,7 @@ GNU 計畫的自由軟體 <br>+ Linux 作業系統核心
 
 ---
 
-## [Linux 本人的回答](https://youtu.be/KFKxlYNfT_o?feature=shared&t=127)
+## [Linus 本人的回答](https://youtu.be/KFKxlYNfT_o?feature=shared&t=127)
 
 ---
 
