@@ -32,15 +32,6 @@ By Khin (Zin) Wang
 
 ---
 
-## 今天有人沒有攜帶隨身碟嗎？
-
-
----
-
-![](./assets/badbad.png)
-
----
-
 ### 開始之前，先問大家有沒有看過這個畫面
 
 ![fit](./assets/bs.jpg)
@@ -102,6 +93,18 @@ By Khin (Zin) Wang
 
 ---
 
+### 作為使用者與電腦硬體之間的橋樑
+
+
+---
+
+### 讓使用者可以輕鬆使用硬體資源，<br>卻無需親自[操縱硬體]((https://youtu.be/ACsLvXuaKxw?feature=shared&t=66))
+
+---
+
+![bg 80%](./assets/osexplain.jpg)
+
+---
 
 ![https://www.linkedin.com/pulse/article-operating-systems-anirudh-krishna/ bg 60%](./assets/oses.jpg)
 
@@ -171,7 +174,7 @@ By Khin (Zin) Wang
 
 ---
 
-## PC 與筆電：市場佔比 4.1%
+## [PC 與筆電](https://youtu.be/KFKxlYNfT_o?feature=shared&t=127)：市場佔比 4.1%
 
 ---
 
@@ -199,6 +202,65 @@ By Khin (Zin) Wang
 ![bg fit left](./assets/dominate.webp)
 
 ---
+
+### 專有軟體代表使用者無法取得原始碼，<br>沒有權利修改、再散布軟體的權利
+
+---
+
+### 如果你想修改專有軟體程式碼，<br>修復其中的 Bug ...
+
+
+---
+
+![bg 60%](./assets/no.jpeg)
+
+---
+
+### 如果你想修改專有軟體程式碼，<br>新增好用功能、 改編成喜歡的樣子...
+
+---
+
+![bg 60%](./assets/no.jpeg)
+
+
+---
+
+
+### 如果你想使用專有軟體作為基礎，<br>開發一個工具...
+
+
+---
+
+![bg 60%](./assets/no.jpeg)
+
+---
+
+### 如果你想修改專有軟體程式碼，<br>將其移植到自己慣用的電腦系統...
+
+---
+
+![bg 60%](./assets/no.jpeg)
+
+
+---
+
+### 當時幾乎所有好用的作業系統都是專有軟體
+
+---
+
+### 更糟糕的是<br>還大多要錢
+
+![bg 80% left](./assets/money.png)
+
+---
+
+
+### 尤其被 AT&T <br>公司把持的<br>[UNIX 作業系統](https://zh.wikipedia.org/zh-tw/UNIX)
+
+![bg right 80%](./assets/att.jpeg)
+
+---
+
 
 ## Linux 之父： <br> Linus Torvalds
 
@@ -267,6 +329,13 @@ By Khin (Zin) Wang
 
 ---
 
+### 對，也就是資工系的那門[必修課](https://selcrs.nsysu.edu.tw/menu5/showoutline.asp?SYEAR=112&SEM=2&CrsDat=CSE270&Crsname=%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)
+
+![bg 70% right](./assets/orlyosbook.png)
+
+---
+
+## 那我們口語中說的 Linux 系統<br>又是什麼？
 
 ---
 
@@ -282,9 +351,42 @@ By Khin (Zin) Wang
 
 ---
 
-## 然而自由軟體社群遭遇一個巨大瓶頸 😱
 
 
+### [四大自由](https://www.gnu.org/philosophy/free-sw.zh-tw.html)
+
+<style scoped>
+   h3{
+    font-size: 56px;
+   }
+   section {
+    font-size: 24px;
+   }
+   
+</style>
+
+1. 依照你的想法執行該程式的自由，無論任何目的
+2. 研究該程式如何運作的自由，並依照你的想法<br>修改它以符合你的運算所需
+3. 再次散布程式副本的自由，如此你就能幫助他人
+4. 將你修改過後的版本散布給他人的自由
+
+-- [Richard Stallman](https://zh.wikipedia.org/wiki/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E6%96%AF%E6%89%98%E6%9B%BC)
+
+![bg git right:40%](./assets/stallman.jpg)
+
+---
+
+### 逐漸地，GNU 計畫開發出UNIX上各種軟體的替代版本
+
+![bg 50% right](./assets/EmacsIcon.png)
+![bg 50%](./assets/gcc.png)
+![bg 50%](./assets/bash.png)
+
+---
+
+
+## 然而自由軟體社群<br>卻遭遇一個巨大瓶頸
+![](./assets/ohno.jpg)
 
 ---
 
@@ -308,13 +410,11 @@ By Khin (Zin) Wang
 
 ---
 
-## 那我們口語中說的 Linux 系統<br>又是什麼？
 
----
-## [Linux 發行版/Linux Distro](https://zh.wikipedia.org/zh-tw/Linux%E5%8F%91%E8%A1%8C%E7%89%88)
+## 所以我們口語中說的 Linux 系統
 
----
-## 各種應用程式 + Linux 作業系統核心
+### = 各種軟體 + Linux 作業系統核心
+
 
 ---
 ### + Linux 作業系統核心
@@ -322,8 +422,26 @@ By Khin (Zin) Wang
 ![bg contain left](./assets/xfce.png)
 
 
---
-https://youtu.be/KFKxlYNfT_o?feature=shared&t=127
+---
+
+
+### 可以是
+
+GNU 計畫的自由軟體 <br>+ Linux 作業系統核心
+
+![bg 70% left](./assets/yes.jpg)
+
+---
+
+### 也可以是
+
+非 GNU 計畫的其他軟體 <br>+ Linux 作業系統核心
+
+![bg 70% left](./assets/yes.jpg)
+
+
+---
+## 我們都稱為 <br> [Linux 發行版/Linux Distro](https://zh.wikipedia.org/zh-tw/Linux%E5%8F%91%E8%A1%8C%E7%89%88)
 
 ---
 
@@ -389,6 +507,38 @@ https://youtu.be/KFKxlYNfT_o?feature=shared&t=127
 
 ---
 
+## 來不及補充的內容
+
+關於 Linux 與大 Boss 的大戰
+
+
+---
+
+![bg](./assets/linuxvswindows.png)
+
+---
+
+### 詳見<br>[作業系統革命](https://www.youtube.com/watch?v=vWwvh3036Fw)
+![bg width:450px left](./assets/revoltos.jpg)
+
+
+---
+
+
+### 關於前面的問題
+
+
+---
+
+### 為什麼 Linux 在<br>大眾眼裡的存在感這麼低？
+![](./assets/thinkingbw.jpg)
+
+---
+
+## [Linux 本人的回答](https://youtu.be/KFKxlYNfT_o?feature=shared&t=127)
+
+---
+
 # Why Linux? 🤨
 
 ---
@@ -402,7 +552,7 @@ https://youtu.be/KFKxlYNfT_o?feature=shared&t=127
 
 ---
 
-## 好，回到主題 😇
+## 共勉之 😇
 
 ---
 
@@ -421,7 +571,11 @@ https://youtu.be/KFKxlYNfT_o?feature=shared&t=127
 
 ---
 
-### 許多使用者(包含我XD)<br>都會染上換換病<br>每隔一段時間不換個發行版，<br>渾身不自在🥵
+## 雖然說不健康
+
+---
+
+## 許多使用者(包含我XD)<br>都會染上換換病<br>每隔一段時間不換個發行版，<br>渾身不自在🥵
 
 ---
 
@@ -492,47 +646,152 @@ https://youtu.be/KFKxlYNfT_o?feature=shared&t=127
 
 ---
 
-## 1. 先體驗看看
+## 階段一：先體驗看看
 
-+ 虛擬機
-+ Live USB 
+---
+
+1. 使用 [虛擬機](https://zh.wikipedia.org/zh-tw/%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8) 或 [Live USB](https://zh.wikipedia.org/zh-tw/Live_USB)，在不實際灌系統至電腦的情況下，體驗 Linux 操作
+
+---
+
+### 對於電腦好陌生，好怕弄壞電腦硬碟？
 ![](./assets/liveusb.png)
 
-+ 先從圖像介面開始
-+ [Linux 初學者應該知道的事](https://forum.gamer.com.tw/Co.php?bsn=60030&sn=2427798)
+---
+
+2. 先從圖像介面開始，Linux 世界不是只有<br>駭客電影裡的終端指令
+
+![bg contain left](./assets/budgie.jpg)
 
 ---
 
-如果覺得好像可以的話🤔
+3. 體驗 Linux 系統的種種操作，體驗各種自由、開源軟體，上網、聽音樂、畫圖、剪輯照片、玩遊戲、各種用途...
 
 ---
 
-## 2. 慢慢熟悉操作
+## 什麼！你不相信 Linux 可以[玩遊戲](https://www.youtube.com/watch?v=DA5rx7Dw1UI)？
 
-+ 慢慢從做中學
-+ 文件、社群可問
 
----
-
-如果覺得好像可以的話🤔
 
 ---
 
-## 3. 安裝雙系統或直接使用
+## 如果覺得好像可以的話🤔
 
 ---
 
-## 心理建設
+## 階段二：慢慢了解、熟悉操作
 
 ---
 
-+ 遇到問題
+1. 時不時拿出來把玩一下，不用擔心弄壞電腦
+
+---
+
+2. 利用 Linux 與各種自由、開源軟體做各種用途，<br>慢慢從做中學
+
+---
+
+3. 學習使用[終端機指令](https://linux.vbird.org/linux_basic/centos7/0220filemanager.php)，更有效率的操作、管理電腦
+
+---
+
+4. 遇到問題，有 ChatGPT 以及官方文件、社群可問，試著自行解決問題
+
+---
+
+## 如果覺得好像可以的話🤔
+
+---
+
+## 階段三：安裝雙系統或直接使用
+
+---
+
+1. 將手上的一台電腦改成 Linux 系統，或安裝雙系統，作為長期慣用系統
+
+
+---
+
+推薦新手閱讀文章：[Linux 初學者應該知道的事](https://forum.gamer.com.tw/Co.php?bsn=60030&sn=2427798)
+
+
+--- 
+
+## 心理建設與叮嚀
+
+---
+
+
+1. 儘管 Linux 有許多功能與 Windows/MacOS 很像，但是 Linux 是 Linux，不要期待所有 Windows 與 MacOS 上的體驗都能移植到 Linux
+
+---
+
+2. 在使用 Linux 的過程中，難免會遇到需要你動手解決的問題，請不要馬上投降，也請冷靜不要慌張，有時只要上網查詢資料，仔細釐清問題本質，通常都能夠找到解法，而且現在有 ChatGPT
+
+---
+
+3. 使用 Linux 遇到問題，上網尋找解法時，不要一股腦兒就實施網路上提供的解法、執行指令，請先：
+
+   + 理解遭遇到的問題本質為何
+   + 理解遭遇到的問題本質是否與網路解法的情況相同
+   + 理解網路上的解法為什麼可以解決遭遇到的問題
+   
+   <br>
+   如果問題解決記得將解法記錄下來，因為你可能還會遇到
+
+---
+
+4. Linux 是一個非常自由的系統，你能做任何你想做的事，請謹慎使用最高權限，避免鑄下不可逆的錯誤。
 
 ---
 
 
 # Let's Play With Ubuntu!🥳
 
+
+---
+
+## Virtualbox 虛擬機安裝教學
+
+---
+
+
+## Windows 使用者看這邊 
+
+---
+
+1. 請先複製資安社隨身碟裡 amd64 目錄夾下的 Ubuntu .iso 檔案至電腦
+
+---
+
+2. 請安裝 Virtualbox 虛擬機 Windows 版，請至[此網站](https://www.virtualbox.org/wiki/Downloads)
+
+
+---
+
+3. 建立 Ubuntu 虛擬機，請看[這個影片](https://www.youtube.com/watch?v=xnTtF-jJrMQ)
+
+
+---
+
+## MacOS 使用者看這邊 
+
+---
+
+1. 請先複製資安社隨身碟裡的 Ubuntu .iso 檔案至電腦，如果你的電腦是 M1/M2/M3/M4 晶片，複製 arm 目錄夾底下的檔案，否則複製 amd64 目錄夾底下的檔案
+
+---
+
+2. 請安裝 Virtualbox 虛擬機 MacOS 版，請至[此網站](https://www.virtualbox.org/wiki/Downloads)
+
+
+---
+
+3. 建立 Ubuntu 虛擬機，請看[這個影片](https://www.youtube.com/watch?v=LjL_N0OZxvY)
+
+---
+
+## Live USB 安裝[教學](https://www.youtube.com/watch?v=i7Uee78td-s)
 
 ---
 
